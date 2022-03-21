@@ -75,3 +75,50 @@ img {
 
 /* MEDIAQUERY */
 
+/* PHONE VIEW */
+
+
+@media screen and (max-width:419px){
+
+  .row {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-bottom: 15px;
+    
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+  }
+
+  body{
+    background-color: lightyellow;
+  }
+
+  /* STEPS */
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    padding-top: 15px;
+  }
+
+  #steps.container{
+    padding-top: 15px;
+  }
+
+  #why{
+    background-color: transparent;
+  }
+}
+
+
+/* TABLET VIEW */
+
+
