@@ -115,6 +115,7 @@ img {
 
   #why{
     background-color: transparent;
+
   }
 }
 
@@ -140,6 +141,8 @@ img {
 
   #why{
     background-color: rgba(255, 255, 255, .5);
+    padding-top: 15px;
+
   }
 }
 
